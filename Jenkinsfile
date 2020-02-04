@@ -13,6 +13,8 @@ pipeline {
             steps {
                 sh 'echo "hello world"'
                 sh 'whoami'
+                sh 'which nodejs'
+                sh 'nodejs -v'
             }
         }
     }
